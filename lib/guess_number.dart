@@ -19,6 +19,8 @@ void main() {
         _YesorNo = true;
         if (YesorNo == 'N' || YesorNo == 'n') {
           playGameAgain = false;
+          print('║                 THANK YOU              ');
+          print('╚════════════════════════════════════════');
         }
       }
     }while(!_YesorNo);
